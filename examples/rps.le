@@ -1,0 +1,14 @@
+# Kowalski 2020, example (1): the rock-paper-scissors reactive rule, with the
+# static beats relation as declarative facts.
+#
+# The paper's sentence is reproduced verbatim except for two noun phrases whose
+# referent lives outside the clause -- 'the game' and 'the prize' -- which the
+# paper leaves to its cross-sentence context.  v1 has no cross-sentence
+# anaphora, so they are declared constants ([names] RpsGame / RpsPrize): a
+# loud, declared reading rather than a guessed one (see README, gap g1).
+
+Rock beats Scissors.
+Scissors beats Paper.
+Paper beats Rock.
+
+If a player P1 plays a choice C1 and another player P2 plays a choice C2 and C1 beats C2 and it is not the case that RpsGame is over then P1 receives RpsPrize and it becomes the case that RpsGame is over.

@@ -1,0 +1,3 @@
+# Kowalski 2020, example (3)'s relational rewrite: "Monday is the day before
+# another day and the other day is before Wednesday".
+A day is before Wednesday if the day is before another day and the other day is before Wednesday.

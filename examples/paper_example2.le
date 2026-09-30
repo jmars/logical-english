@@ -1,0 +1,3 @@
+# Kowalski 2020, example (2), minus the meta-level 'states that' condition
+# (that embedding is a declared gap -- see README).
+A transaction is governed by IsdaAgreement if the transaction commences on a first day and IsdaAgreement is dated as of a second day and the first day is on or after the second day.

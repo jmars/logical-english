@@ -1,0 +1,5 @@
+# Kowalski 2020, example (2), VERBATIM (including the meta-level 'states that'
+# condition).  The condition mentions the object-level sentence 'the
+# transaction is governed by IsdaAgreement'; 'governs' is USED as a predicate
+# in the conclusion and MENTIONED as a term inside states(...).
+A transaction is governed by IsdaAgreement if a confirmation of the transaction states that the transaction is governed by IsdaAgreement and the transaction commences on a first day and IsdaAgreement is dated as of a second day and the first day is on or after the second day.
